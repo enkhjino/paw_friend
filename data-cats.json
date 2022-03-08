@@ -1,0 +1,1485 @@
+{
+    "animals": [
+        {
+            "id": 54907219,
+            "organization_id": "NJ58",
+            "url": "https://www.petfinder.com/cat/lei-lei-54907219/nj/carneys-point/salem-county-humane-society-nj58/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Tabby",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": true,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": true,
+                "dogs": null,
+                "cats": true
+            },
+            "tags": [
+                "Friendly"
+            ],
+            "name": "Lei Lei",
+            "description": "Lei Lei came from a home she shared with other cats, so she would be fine being adopted into a...",
+            "organization_animal_id": "C1487",
+            "photos": [
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026&width=300",
+                "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026&width=450",
+                "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026&width=600",
+                "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907219/1/?bust=1646779026"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:37:07+0000",
+            "published_at": "2022-03-08T22:37:07+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@salemcountyhumanesociety.org",
+                "phone": "(856) 299-2220",
+                "address": {
+                    "address1": "N Game Creek Road, PO Box 214",
+                    "address2": null,
+                    "city": "Carneys Point",
+                    "state": "NJ",
+                    "postcode": "08069",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907219"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/nj58"
+                }
+            }
+        },
+        {
+            "id": 54907197,
+            "organization_id": "NC590",
+            "url": "https://www.petfinder.com/cat/shannon-54907197/nc/raleigh/spca-of-wake-county-nc590/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "SHANNON",
+            "description": "Oh, hello there. My name is Shannon and I have to admitI&amp;#39;m a little nervous. I&amp;#39;ve been traveling around so...",
+            "organization_animal_id": "A101660",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:34+0000",
+            "published_at": "2022-03-08T22:36:34+0000",
+            "distance": null,
+            "contact": {
+                "email": "adoptstaff@spcawake.org",
+                "phone": "(919) 772-2326",
+                "address": {
+                    "address1": "200 Petfinder Lane",
+                    "address2": null,
+                    "city": "Raleigh",
+                    "state": "NC",
+                    "postcode": "27603",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907197"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/nc590"
+                }
+            }
+        },
+        {
+            "id": 54907192,
+            "organization_id": "NC590",
+            "url": "https://www.petfinder.com/cat/lia-54907192/nc/raleigh/spca-of-wake-county-nc590/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "LIA",
+            "description": "Hello, my name is Lia. Can I ask you a question? When we get home, do you have a cozy...",
+            "organization_animal_id": "A101661",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:33+0000",
+            "published_at": "2022-03-08T22:36:33+0000",
+            "distance": null,
+            "contact": {
+                "email": "adoptstaff@spcawake.org",
+                "phone": "(919) 772-2326",
+                "address": {
+                    "address1": "200 Petfinder Lane",
+                    "address2": null,
+                    "city": "Raleigh",
+                    "state": "NC",
+                    "postcode": "27603",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907192"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/nc590"
+                }
+            }
+        },
+        {
+            "id": 54907164,
+            "organization_id": "TX758",
+            "url": "https://www.petfinder.com/cat/patty-1960-i45-petsmart-54907164/tx/houston/smart-rescue-tx758/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Torbie",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": "Medium",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": true,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": true,
+                "dogs": null,
+                "cats": true
+            },
+            "tags": [
+                "Friendly",
+                "Affectionate",
+                "Loyal",
+                "Gentle",
+                "Playful",
+                "Loves kisses"
+            ],
+            "name": "Patty - 1960/I45 Petsmart",
+            "description": null,
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/2/?bust=1646778989&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/2/?bust=1646778989&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/2/?bust=1646778989&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/2/?bust=1646778989"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/3/?bust=1646778989&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/3/?bust=1646778989&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/3/?bust=1646778989&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/3/?bust=1646778989"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/4/?bust=1646778990&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/4/?bust=1646778990&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/4/?bust=1646778990&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/4/?bust=1646778990"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/5/?bust=1646778991&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/5/?bust=1646778991&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/5/?bust=1646778991&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/5/?bust=1646778991"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/6/?bust=1646778991&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/6/?bust=1646778991&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/6/?bust=1646778991&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/6/?bust=1646778991"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988&width=300",
+                "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988&width=450",
+                "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988&width=600",
+                "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907164/1/?bust=1646778988"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:33+0000",
+            "published_at": "2022-03-08T22:36:33+0000",
+            "distance": null,
+            "contact": {
+                "email": "public_relations@smartpetz.com",
+                "phone": "(281) 794-9934",
+                "address": {
+                    "address1": "140 FM 1960 East",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77073",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907164"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/tx758"
+                }
+            }
+        },
+        {
+            "id": 54907184,
+            "organization_id": "FL252",
+            "url": "https://www.petfinder.com/cat/bert-54907184/fl/fort-lauderdale/broward-county-animal-care-and-adoption-fl252/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "BERT",
+            "description": null,
+            "organization_animal_id": "A2182296",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:32+0000",
+            "published_at": "2022-03-08T22:36:32+0000",
+            "distance": null,
+            "contact": {
+                "email": "animalcare@broward.org",
+                "phone": null,
+                "address": {
+                    "address1": "2400 SW 42nd Street",
+                    "address2": null,
+                    "city": "Fort Lauderdale",
+                    "state": "FL",
+                    "postcode": "33312",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907184"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/fl252"
+                }
+            }
+        },
+        {
+            "id": 54907186,
+            "organization_id": "CA766",
+            "url": "https://www.petfinder.com/cat/r-dot-j-54907186/ca/los-angeles/city-of-los-angeles-south-la-animal-shelter-ca766/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "R.J.",
+            "description": null,
+            "organization_animal_id": "A2019928",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:32+0000",
+            "published_at": "2022-03-08T22:36:32+0000",
+            "distance": null,
+            "contact": {
+                "email": null,
+                "phone": "(213) 485-0214",
+                "address": {
+                    "address1": "1850 W. 60th St.",
+                    "address2": null,
+                    "city": "Los Angeles",
+                    "state": "CA",
+                    "postcode": "90047",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907186"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/ca766"
+                }
+            }
+        },
+        {
+            "id": 54907185,
+            "organization_id": "CA766",
+            "url": "https://www.petfinder.com/cat/j-dot-j-54907185/ca/los-angeles/city-of-los-angeles-south-la-animal-shelter-ca766/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "J.J.",
+            "description": null,
+            "organization_animal_id": "A2019929",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:31+0000",
+            "published_at": "2022-03-08T22:36:31+0000",
+            "distance": null,
+            "contact": {
+                "email": null,
+                "phone": "(213) 485-0214",
+                "address": {
+                    "address1": "1850 W. 60th St.",
+                    "address2": null,
+                    "city": "Los Angeles",
+                    "state": "CA",
+                    "postcode": "90047",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907185"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/ca766"
+                }
+            }
+        },
+        {
+            "id": 54907161,
+            "organization_id": "OK37",
+            "url": "https://www.petfinder.com/cat/calliope-54907161/ok/oklahoma-city/oklahoma-city-animal-welfare-division-ok37/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "CALLIOPE",
+            "description": null,
+            "organization_animal_id": "A258405",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:27+0000",
+            "published_at": "2022-03-08T22:36:27+0000",
+            "distance": null,
+            "contact": {
+                "email": "animalwelfare@okc.gov",
+                "phone": "405-297-3100  ",
+                "address": {
+                    "address1": "2811 SE 29th Street",
+                    "address2": null,
+                    "city": "Oklahoma City",
+                    "state": "OK",
+                    "postcode": "73129",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907161"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/ok37"
+                }
+            }
+        },
+        {
+            "id": 54907162,
+            "organization_id": "OK37",
+            "url": "https://www.petfinder.com/cat/a378856-54907162/ok/oklahoma-city/oklahoma-city-animal-welfare-division-ok37/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Male",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "A378856",
+            "description": null,
+            "organization_animal_id": "A378856",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:27+0000",
+            "published_at": "2022-03-08T22:36:27+0000",
+            "distance": null,
+            "contact": {
+                "email": "animalwelfare@okc.gov",
+                "phone": "405-297-3100  ",
+                "address": {
+                    "address1": "2811 SE 29th Street",
+                    "address2": null,
+                    "city": "Oklahoma City",
+                    "state": "OK",
+                    "postcode": "73129",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907162"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/ok37"
+                }
+            }
+        },
+        {
+            "id": 54907163,
+            "organization_id": "OK37",
+            "url": "https://www.petfinder.com/cat/toffee-54907163/ok/oklahoma-city/oklahoma-city-animal-welfare-division-ok37/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Senior",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "TOFFEE",
+            "description": null,
+            "organization_animal_id": "A378846",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:27+0000",
+            "published_at": "2022-03-08T22:36:27+0000",
+            "distance": null,
+            "contact": {
+                "email": "animalwelfare@okc.gov",
+                "phone": "405-297-3100  ",
+                "address": {
+                    "address1": "2811 SE 29th Street",
+                    "address2": null,
+                    "city": "Oklahoma City",
+                    "state": "OK",
+                    "postcode": "73129",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907163"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/ok37"
+                }
+            }
+        },
+        {
+            "id": 54907166,
+            "organization_id": "FL581",
+            "url": "https://www.petfinder.com/cat/tangerine-54907166/fl/ocala/marion-county-animal-services-fl581/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Male",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "TANGERINE",
+            "description": null,
+            "organization_animal_id": "A288637",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:27+0000",
+            "published_at": "2022-03-08T22:36:27+0000",
+            "distance": null,
+            "contact": {
+                "email": "animalservices@marionfl.org",
+                "phone": "(352) 671-8700",
+                "address": {
+                    "address1": "5701 S.E. 66th St.",
+                    "address2": null,
+                    "city": "Ocala",
+                    "state": "FL",
+                    "postcode": "34480",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907166"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/fl581"
+                }
+            }
+        },
+        {
+            "id": 54907165,
+            "organization_id": "WA117",
+            "url": "https://www.petfinder.com/cat/katrina-54907165/wa/tacoma/the-humane-society-for-tacoma-and-pierce-county-wa117/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Long Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "KATRINA",
+            "description": "I have been at the shelter since Mar 01, 2022. I like to build my confidence by observing your regular...",
+            "organization_animal_id": "A563852",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:27+0000",
+            "published_at": "2022-03-08T22:36:27+0000",
+            "distance": null,
+            "contact": {
+                "email": null,
+                "phone": "253-383-2733",
+                "address": {
+                    "address1": "2608 Center Street",
+                    "address2": null,
+                    "city": "Tacoma",
+                    "state": "WA",
+                    "postcode": "98464",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907165"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/wa117"
+                }
+            }
+        },
+        {
+            "id": 54907158,
+            "organization_id": "NV26",
+            "url": "https://www.petfinder.com/cat/cyrus-54907158/nv/las-vegas/the-animal-foundation-nv26/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "CYRUS",
+            "description": null,
+            "organization_animal_id": "A1218402",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:23+0000",
+            "published_at": "2022-03-08T22:36:23+0000",
+            "distance": null,
+            "contact": {
+                "email": "adoptions@animalfoundation.com",
+                "phone": "702-384-3333  ext.131 ",
+                "address": {
+                    "address1": "655 N. Mojave",
+                    "address2": null,
+                    "city": "Las Vegas",
+                    "state": "NV",
+                    "postcode": "89101",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907158"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/nv26"
+                }
+            }
+        },
+        {
+            "id": 54907141,
+            "organization_id": "CO125",
+            "url": "https://www.petfinder.com/cat/maya-54907141/co/colorado-springs/humane-society-of-the-pikes-peak-region-co125/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Long Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "MAYA",
+            "description": null,
+            "organization_animal_id": "A1551064",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:21+0000",
+            "published_at": "2022-03-08T22:36:21+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@hsppr.org",
+                "phone": null,
+                "address": {
+                    "address1": "610 Abbott Lane",
+                    "address2": null,
+                    "city": "Colorado Springs",
+                    "state": "CO",
+                    "postcode": "80905",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907141"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/co125"
+                }
+            }
+        },
+        {
+            "id": 54907142,
+            "organization_id": "CA149",
+            "url": "https://www.petfinder.com/cat/a310217-54907142/ca/stockton/stockton-animal-shelter-and-the-animal-protection-league-ca149/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "A310217",
+            "description": null,
+            "organization_animal_id": "A310217",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:21+0000",
+            "published_at": "2022-03-08T22:36:21+0000",
+            "distance": null,
+            "contact": {
+                "email": "animalservices@stocktonca.gov",
+                "phone": "(209) 937-7445",
+                "address": {
+                    "address1": "1575 S. Lincoln Street",
+                    "address2": null,
+                    "city": "Stockton",
+                    "state": "CA",
+                    "postcode": "95206",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907142"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/ca149"
+                }
+            }
+        },
+        {
+            "id": 54907135,
+            "organization_id": "TX1249",
+            "url": "https://www.petfinder.com/cat/rue-54907135/tx/killeen/killeen-animal-services-tx1249/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Medium Hair",
+                "secondary": "Domestic Short Hair",
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Extra Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "RUE",
+            "description": null,
+            "organization_animal_id": "A103804",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:19+0000",
+            "published_at": "2022-03-08T22:36:19+0000",
+            "distance": null,
+            "contact": {
+                "email": "animal@killeentexas.gov",
+                "phone": "254-526-4455     ",
+                "address": {
+                    "address1": "3118 Commerce",
+                    "address2": null,
+                    "city": "Killeen",
+                    "state": "TX",
+                    "postcode": "76543",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907135"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/tx1249"
+                }
+            }
+        },
+        {
+            "id": 54907136,
+            "organization_id": "TX1249",
+            "url": "https://www.petfinder.com/cat/leo-54907136/tx/killeen/killeen-animal-services-tx1249/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "LEO",
+            "description": null,
+            "organization_animal_id": "A103851",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:19+0000",
+            "published_at": "2022-03-08T22:36:19+0000",
+            "distance": null,
+            "contact": {
+                "email": "animal@killeentexas.gov",
+                "phone": "254-526-4455     ",
+                "address": {
+                    "address1": "3118 Commerce",
+                    "address2": null,
+                    "city": "Killeen",
+                    "state": "TX",
+                    "postcode": "76543",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907136"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/tx1249"
+                }
+            }
+        },
+        {
+            "id": 54907130,
+            "organization_id": "FL275",
+            "url": "https://www.petfinder.com/cat/ruby-54907130/fl/orlando/orange-county-animal-services-fl275/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Maine Coon",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "RUBY",
+            "description": null,
+            "organization_animal_id": "A489018",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:17+0000",
+            "published_at": "2022-03-08T22:36:17+0000",
+            "distance": null,
+            "contact": {
+                "email": "AnimalServices@ocfl.net",
+                "phone": null,
+                "address": {
+                    "address1": "2769 Conroy Road",
+                    "address2": null,
+                    "city": "Orlando",
+                    "state": "FL",
+                    "postcode": "32839",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907130"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/fl275"
+                }
+            }
+        },
+        {
+            "id": 54907119,
+            "organization_id": "ID154",
+            "url": "https://www.petfinder.com/cat/colman-54907119/id/mountain-home/animal-welfare-league-of-elmore-county-id154/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Black",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": "Short",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": true,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": true,
+                "dogs": null,
+                "cats": true
+            },
+            "tags": [
+                "Friendly",
+                "Affectionate",
+                "Loyal",
+                "Playful",
+                "Smart",
+                "Brave",
+                "Curious",
+                "Funny",
+                "Athletic",
+                "Loves kisses"
+            ],
+            "name": "Colman",
+            "description": "Colman came into us here at Pawsitivity, he had been living outside and some caring folks knew that his was...",
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/2/?bust=1646778965&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/2/?bust=1646778965&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/2/?bust=1646778965&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/2/?bust=1646778965"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/3/?bust=1646778967&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/3/?bust=1646778967&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/3/?bust=1646778967&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/3/?bust=1646778967"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/4/?bust=1646778970&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/4/?bust=1646778970&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/4/?bust=1646778970&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/4/?bust=1646778970"
+                },
+                {
+                    "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/5/?bust=1646778972&width=100",
+                    "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/5/?bust=1646778972&width=300",
+                    "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/5/?bust=1646778972&width=600",
+                    "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/5/?bust=1646778972"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964&width=300",
+                "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964&width=450",
+                "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964&width=600",
+                "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54907119/1/?bust=1646778964"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:16+0000",
+            "published_at": "2022-03-08T22:36:16+0000",
+            "distance": null,
+            "contact": {
+                "email": "PawsitivityRescueInc@gmail.com",
+                "phone": "2089215532",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Mountain Home",
+                    "state": "ID",
+                    "postcode": "83647",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907119"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/id154"
+                }
+            }
+        },
+        {
+            "id": 54907124,
+            "organization_id": "CA866",
+            "url": "https://www.petfinder.com/cat/violet-54907124/ca/mckinleyville/humboldt-county-animal-shelter-ca866/?referrer_id=9e4dce13-3755-48f0-bdcf-d8ee3e09f56a",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "VIOLET",
+            "description": null,
+            "organization_animal_id": "A104687",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2022-03-08T22:36:14+0000",
+            "published_at": "2022-03-08T22:36:14+0000",
+            "distance": null,
+            "contact": {
+                "email": "HSOanimalshelter@co.humboldt.ca.us",
+                "phone": "(707) 840-9132  ",
+                "address": {
+                    "address1": "980 Lycoming Road",
+                    "address2": null,
+                    "city": "McKinleyville",
+                    "state": "CA",
+                    "postcode": "95519",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "/v2/animals/54907124"
+                },
+                "type": {
+                    "href": "/v2/types/cat"
+                },
+                "organization": {
+                    "href": "/v2/organizations/ca866"
+                }
+            }
+        }
+    ],
+    "pagination": {
+        "count_per_page": 20,
+        "total_count": 79650,
+        "current_page": 1,
+        "total_pages": 3983,
+        "_links": {
+            "next": {
+                "href": "/v2/animals?type=cat&page=2"
+            }
+        }
+    }
+}

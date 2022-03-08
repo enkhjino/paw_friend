@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import AuthPage from '../AuthPage/AuthPage';
-import DogsList from '../DogsList/DogsList';
-import CatsList from '../CatsList/CatsList';
-import Favorites from '../Favorites/Favorites';
+import DogsListPage from '../DogsListPage/DogsListPage';
+import CatsListPage from '../CatsListPage/CatsListPage';
+import FavoritesPage from '../FavoritesPage/FavoritesPage';
 import NavBar from '../../components/NavBar/NavBar';
 import { getUser } from '../../utilities/users-service';
 import { Link } from 'react-router-dom';
@@ -19,9 +19,9 @@ export default function App() {
             <NavBar className="Nav" user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
-              <Route path="/dog" element={<DogsList />} />
-              <Route path="/cat" element={<CatsList />} />
-              <Route path="/favorites" element={<Favorites />} />
+              <Route path="/dog" element={<DogsListPage />} />
+              <Route path="/cat" element={<CatsListPage />} />
+              <Route path="/favorites" element={<FavoritesPage />} />
             </Routes>
             <div className='landing-header'>
               <h1>Finding the perfect furry animal is hard, but we can help you</h1>
