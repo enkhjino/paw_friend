@@ -7,6 +7,7 @@ import CatsList from '../CatsList/CatsList';
 import Favorites from '../Favorites/Favorites';
 import NavBar from '../../components/NavBar/NavBar';
 import { getUser } from '../../utilities/users-service';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -15,14 +16,22 @@ export default function App() {
     <main className="App">
       { user ?
           <>
-            <NavBar user={user} setUser={setUser} />
+            <NavBar className="Nav" user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
               <Route path="/dog" element={<DogsList />} />
               <Route path="/cat" element={<CatsList />} />
               <Route path="/favorites" element={<Favorites />} />
             </Routes>
-            <div className='backgroundHome'>Finding the perfect furry animal is hard, but we can help you</div>
+            <div className='landing-header'>
+              <h1>Finding the perfect furry animal is hard, but we can help you</h1>
+              <h2>Fill out this form to see your perfect match</h2>
+              <button>Get Started</button>
+            </div>
+            <div className="landing-buttons">
+              <button className="pet-button"><Link to="/dog">Find a dog</Link></button>
+              <button className="pet-button"><Link to ="/cat">Find a cat</Link></button>
+            </div>
           </>
           :
           <AuthPage setUser={setUser} />

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import "./NavBar.css";
 import * as userService from '../../utilities/users-service';
 
 export default function NavBar({ user, setUser }) {
@@ -9,10 +10,12 @@ export default function NavBar({ user, setUser }) {
 
   return (
     <nav>
-      <Link to="/cat">Cat List</Link>
+      <Link to="/">HOME</Link>
+      &nbsp; | &nbsp;
+      {/* <Link to="/cat">Cat List</Link>
       &nbsp; | &nbsp;
       <Link to="/dog">Dog List</Link>
-      &nbsp; | &nbsp;
+      &nbsp; | &nbsp; */}
       <Link to="/favorites">Favorites List</Link>
       &nbsp; | &nbsp;
       <span>Welcome, {user.name}</span>
