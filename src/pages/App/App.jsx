@@ -20,7 +20,7 @@ export default function App() {
             <Routes>
               {/* Route components in here */}
               <Route path="/dog" element={<DogsListPage />} />
-              <Route path="/cat" element={<CatsListPage />} />
+              <Route path="/cats" element={<CatsListPage />} />
               <Route path="/favorites" element={<FavoritesPage />} />
             </Routes>
             <div className='landing-header'>
@@ -30,7 +30,7 @@ export default function App() {
             </div>
             <div className="landing-buttons">
               <button className="pet-button"><Link to="/dog">Find a dog</Link></button>
-              <button className="pet-button"><Link to ="/cat">Find a cat</Link></button>
+              <button className="pet-button"><Link to ="/cats">Find a cat</Link></button>
             </div>
           </>
           :

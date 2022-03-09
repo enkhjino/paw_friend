@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-radius: 10px;
+}
+
+.item-card {
+  margin: 2vw;
+  border-radius: 5px;
+  height: 40vh;
+  width: 15vw;
+}
+
+.item-card:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  background-color: white;
+  border-radius: 4px;
+}
