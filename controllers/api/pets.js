@@ -38,11 +38,28 @@ function formatPetData(animals) {
     return animals.map(a => ({
         name: a.name,
         description: a.description,
+        age: a.age,
+        gender: a.gender,
+        size: a.size,
         apiId: a.id,
         species: a.species,
+        breed: a.breeds.primary,
         spayedNeutered: a.attributes.spayed_neutered,
         houseTrained: a.attributes.house_trained,
-        photos: a.photos.map(p => p.full)
+        shotsCurrent: a.attributes.shots_current,
+        children: a.environment.children,
+        cat: a.environment.cat,
+        dog: a.environment.dog,
+        photos: a.photos.map(p => p.full),
+        status: a.status,
+        publishedAt: a.published_at,
+        emailContact: a.contact.email,
+        phoneContact: a.contact.phone,
+        addressContact: a.contact.address.address1,
+        cityAddressContact: a.contact.address.city,
+        stateAddressContact: a.contact.address.state,
+        postcodeAddressContact: a.contact.address.postcode,
+        countryAddressContact: a.contact.address.country
     }));
 }
 
