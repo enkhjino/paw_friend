@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function CatCard(props) {
   return (
     <>
-      <Link to='/cat' className="cat-link">
+      <Link to={`/cats/${props.cat.name}`} className="cat-link">
         <div
           style={{
             background: `url(${props.cat.photos}) no-repeat center center`,

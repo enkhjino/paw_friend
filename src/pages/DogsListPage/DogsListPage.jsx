@@ -1,18 +1,28 @@
+
+import * as petsAPI from '../../utilities/pets-api';
+import "./DogsListPage.css";
+import DogCard from "../../components/DogCard/DogCard";
+import { useState, useEffect } from 'react';
+
 export default function DogsListPage() {
+  const [dogs, setDogs] = useState([]);
+
+  useEffect(function () {
+    async function getDogs() {
+      const dogs = await petsAPI.getAllDogs()
+      setDogs(dogs);
+    }
+    getDogs();
+  }, []);
+ 
   return (
-    <h1>Here are list of dogs you can adopt</h1>
+    <div className="container">
+      {dogs && dogs.map((dog) => {
+        if (dog.photos.length)
+        return <DogCard key={dog.name} dog={dog} />;
+      })}
+    </div>
   );
 }
 
-// import "./DogsListPage.css";
-// import DogCard from "../../components/DogCard/DogCard";
 
-// export default function DogsListPage(props) {
-//   return (
-//     <div className="container">
-//       {props.dogs.map((dog) => {
-//         return <DogCard key={dog.name} dog={dog} />;
-//       })}
-//     </div>
-//   );
-// }

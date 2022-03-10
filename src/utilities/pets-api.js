@@ -4,7 +4,13 @@ const BASE_URL = '/api/pets';
 export function getAllCats() {
     return sendRequest(`${BASE_URL}/cats`);
   }
+export function getAllDogs() {
+  return sendRequest(`${BASE_URL}/dogs`);
+}
 
+export function getCatDetail() {
+    return sendRequest(`${BASE_URL}/cats/:id`);
+  }
 
 async function sendRequest(url, method = 'GET', payload = null) {
 // Fetch accepts an options object as the 2nd argument

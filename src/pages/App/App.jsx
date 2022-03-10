@@ -19,7 +19,7 @@ export default function App() {
             <NavBar className="Nav" user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
-              <Route path="/dog" element={<DogsListPage />} />
+              <Route path="/dogs" element={<DogsListPage />} />
               <Route path="/cats" element={<CatsListPage />} />
               <Route path="/favorites" element={<FavoritesPage />} />
             </Routes>
@@ -29,7 +29,7 @@ export default function App() {
               <button>Get Started</button>
             </div>
             <div className="landing-buttons">
-              <button className="pet-button"><Link to="/dog">Find a dog</Link></button>
+              <button className="pet-button"><Link to="/dogs">Find a dog</Link></button>
               <button className="pet-button"><Link to ="/cats">Find a cat</Link></button>
             </div>
           </>
