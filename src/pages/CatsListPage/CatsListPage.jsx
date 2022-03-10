@@ -15,12 +15,3 @@ export default function CatsListPage({cats, setCats}) {
 
 
 
-  // const [cats, setCats] = useState([]);
-
-  // useEffect(function () {
-  //   async function getCats() {
-  //     const cats = await petsAPI.getAllCats()
-  //     setCats(cats);
-  //   }
-  //   getCats();
-  // }, []);

@@ -5,6 +5,7 @@ import AuthPage from '../AuthPage/AuthPage';
 import DogsListPage from '../DogsListPage/DogsListPage';
 import CatsListPage from '../CatsListPage/CatsListPage';
 import CatDetailPage from '../CatDetailPage/CatDetailPage';
+import DogDetailPage from '../DogDetailPage/DogDetailPage';
 import FavoritesPage from '../FavoritesPage/FavoritesPage';
 import NavBar from '../../components/NavBar/NavBar';
 import { getUser } from '../../utilities/users-service';
@@ -42,6 +43,7 @@ export default function App() {
               <Route path="/dogs" element={<DogsListPage dogs={dogs} setDogs={setDogs} />} />
               <Route path="/cats" element={<CatsListPage cats={cats} setCats={setCats} />} />
               <Route path="/cats/:catName" element={<CatDetailPage cats={cats} setCats={setCats} />} />
+              <Route path="/dogs/:dogName" element={<DogDetailPage dogs={dogs} setDogs={setDogs} />} />
               <Route path="/favorites" element={<FavoritesPage />} />
             </Routes>
             <div className='landing-header'>

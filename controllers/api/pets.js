@@ -5,6 +5,7 @@ module.exports = {
     getAllCats,
     getAllDogs,
     getCatDetail,
+    getDogDetail
 };
 
 const API_URL = "https://api.petfinder.com/v2/animals?type=";
@@ -36,6 +37,15 @@ async function getCatDetail(req, res) {
     const catData = formatPetData(results.animals)
     res.json(catData);
 }
+async function getDogDetail(req, res) {
+    const token = await getToken();
+    // console.log(token);
+    const results = await fetch(`${API_URL}dog/`, {
+        headers: {Authorization: `Bearer ${token}`}
+    }).then(res => res.json());
+    const dogData = formatPetData(results.animals)
+    res.json(dogData);
+}
 
 
 //helper functions
@@ -64,9 +74,11 @@ function formatPetData(animals) {
         apiId: a.id,
         species: a.species,
         breed: a.breeds.primary,
+        adoptable: a.adoptable,
         spayedNeutered: a.attributes.spayed_neutered,
         houseTrained: a.attributes.house_trained,
         shotsCurrent: a.attributes.shots_current,
+        declawed: a.attributes.declawed,
         children: a.environment.children,
         cat: a.environment.cat,
         dog: a.environment.dog,
@@ -79,7 +91,8 @@ function formatPetData(animals) {
         cityAddressContact: a.contact.address.city,
         stateAddressContact: a.contact.address.state,
         postcodeAddressContact: a.contact.address.postcode,
-        countryAddressContact: a.contact.address.country
+        countryAddressContact: a.contact.address.country,
+        organization: a._links.organization
     }));
 }
 

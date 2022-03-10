@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function DogCard(props) {
   return (
     <>
-      <Link to={'/dog'} className="dog-link">
+      <Link to={`/dogs/${props.dog.name}`} className="dog-link">
         <div
           style={{
             background: `url(${props.dog.photos}) no-repeat center center`,
