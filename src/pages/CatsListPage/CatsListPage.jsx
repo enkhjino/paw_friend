@@ -1,19 +1,8 @@
 import * as petsAPI from '../../utilities/pets-api';
 import "./CatsListPage.css";
 import CatCard from "../../components/CatCard/CatCard";
-import { useState, useEffect } from 'react';
 
-export default function CatsListPage() {
-  const [cats, setCats] = useState([]);
-
-  useEffect(function () {
-    async function getCats() {
-      const cats = await petsAPI.getAllCats()
-      setCats(cats);
-    }
-    getCats();
-  }, []);
- 
+export default function CatsListPage({cats, setCats}) {
   return (
     <div className="container">
       {cats && cats.map((cat) => {
@@ -23,3 +12,15 @@ export default function CatsListPage() {
     </div>
   );
 }
+
+
+
+  // const [cats, setCats] = useState([]);
+
+  // useEffect(function () {
+  //   async function getCats() {
+  //     const cats = await petsAPI.getAllCats()
+  //     setCats(cats);
+  //   }
+  //   getCats();
+  // }, []);

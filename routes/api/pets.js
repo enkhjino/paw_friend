@@ -6,7 +6,7 @@ const ensureLoggedIn = require('../../config/ensureLoggedIn');
 
 // GET /api/pets
 router.get('/cats', petsCtrl.getAllCats);
-router.get('/cats/:id', petsCtrl.getCatDetail);
 router.get('/dogs', petsCtrl.getAllDogs);
+router.get('/cats/:catName', petsCtrl.getCatDetail);
 
 module.exports = router;

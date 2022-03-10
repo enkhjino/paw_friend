@@ -4,7 +4,7 @@ const Pet = require('../../models/pet');
 module.exports = {
     getAllCats,
     getAllDogs,
-    getCatDetail
+    getCatDetail,
 };
 
 const API_URL = "https://api.petfinder.com/v2/animals?type=";
@@ -30,7 +30,7 @@ async function getAllDogs(req, res) {
 async function getCatDetail(req, res) {
     const token = await getToken();
     // console.log(token);
-    const results = await fetch(`${API_URL}cat/:id`, {
+    const results = await fetch(`${API_URL}cat/`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const catData = formatPetData(results.animals)
