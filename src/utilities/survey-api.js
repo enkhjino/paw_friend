@@ -1,19 +1,9 @@
 import { getToken } from './users-service';
-const BASE_URL = '/api/pets';
+const BASE_URL = '/api/survey';
 
-export function getAllCats() {
-    return sendRequest(`${BASE_URL}/cats`);
+export function addSurvey(survey) {
+    return sendRequest(`${BASE_URL}/survey`, "POST", survey);
   }
-export function getAllDogs() {
-  return sendRequest(`${BASE_URL}/dogs`);
-}
-
-export function getCatDetail() {
-    return sendRequest(`${BASE_URL}/cats/:id`);
-  }
-export function matches(formData) {
-    return sendRequest(`${BASE_URL}/matches`, "POST", formData);
-}
 
 async function sendRequest(url, method = 'GET', payload = null) {
 // Fetch accepts an options object as the 2nd argument

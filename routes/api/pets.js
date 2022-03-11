@@ -9,5 +9,5 @@ router.get('/cats', petsCtrl.getAllCats);
 router.get('/dogs', petsCtrl.getAllDogs);
 router.get('/cats/:catName', petsCtrl.getCatDetail);
 router.get('/dogs/:dogName', petsCtrl.getDogDetail);
-
+router.post('/matches', petsCtrl.getMatches);
 module.exports = router;

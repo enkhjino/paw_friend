@@ -24,6 +24,8 @@ app.use(require('./config/checkToken'));
 // API routes here
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/pets', require('./routes/api/pets'));
+app.use('/api/survey', require('./routes/api/survey'));
+
 
 
 // "Catch all" route

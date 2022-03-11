@@ -1,65 +1,80 @@
 import React, { useState } from "react";
+import * as surveyAPI from "../../utilities/survey-api"
 // import "./GetStartedForm.css";
 
-export default function NewInfoForm({ addInfo }) {
-  const [newInfo, setNewInfo] = useState({question: "", answer:""});
+export default function NewInfoForm({getMatches}) {
+  const [newInfo, setNewInfo] = useState({
+    type:"cat",
+    experience:"first-time",
+    havePets:"no dog(s) or cat(s)",
+    age:"baby",
+    gender:"unknown",
+    size:"small"
+  });
 
   function handleChangeState(evt) {
     const updatedNewInfo = {
       ...newInfo,
-      [evt.target.question]: evt.target.value
+      [evt.target.name]: evt.target.value
     };
     setNewInfo(updatedNewInfo);
   }
 
-  function handleAddInfo(evt) {
+  async function handleAddInfo(evt) {
     evt.preventDefault();
-    addInfo(newInfo);
-    setNewInfo({
-      question: "",
-      answer: "select"
-    });
+    getMatches(newInfo);
+    const survey = await surveyAPI.addSurvey(newInfo)
+    console.log(survey) 
+    // setNewInfo({
+    //     type:"cat",
+    //     experience:"first-time",
+    //     havePets:"no dog(s) or cat(s)",
+    //     age:"baby",
+    //     gender:"unknown",
+    //     size:"small"
+    // });
   }
-
+console.log(newInfo)
   return (
     <form className="NewSkillForm" onSubmit={handleAddInfo}>
       <label>I'd like to adopt a </label>
-      <select name="answer" value={newInfo.answer} onChange={handleChangeState}>
-        <option value={1}>cat</option>
-        <option value={2}>dog</option>
+      <select name="species" value={newInfo.answer} onChange={handleAddInfo}>
+        <option value="cat">cat</option>
+        <option value="dog">dog</option>
       </select>
       <label>I am a ____ pet owner</label>
-      <select name="answer" value={newInfo.answer} onChange={handleChangeState}>
-        <option value={1}>first-time</option>
-        <option value={2}>previous</option>
-        <option value={2}>current</option>
+      <select name="experience" value={newInfo.answer} onChange={handleChangeState}>
+        <option value="first-time">first-time</option>
+        <option value="previous">previous</option>
+        <option value="current">current</option>
       </select>
       <label>I currently have </label>
-      <select name="answer" value={newInfo.answer} onChange={handleChangeState}>
-        <option value={1}>no dog(s) or cat(s)</option>
-        <option value={2}>cat(s)</option>
-        <option value={2}>dog(s)</option>
-        <option value={2}>dog(s) and cat(s)</option>
+      <select name="havePets" value={newInfo.answer} onChange={handleChangeState}>
+        <option value="no dog(s) or cat(s)">no dog(s) or cat(s)</option>
+        <option value="cat(s)">cat(s)</option>
+        <option value="dog(s)">dog(s)</option>
+        <option value="dog(s) and cat(s)">dog(s) and cat(s)</option>
+        <option value="children">children</option>
       </select>
       <label>My ideal dog/cat is </label>
-      <select name="answer" value={newInfo.answer} onChange={handleChangeState}>
-        <option value={1}>puppy/kitten</option>
-        <option value={2}>young cat/dog</option>
-        <option value={2}>adult cat/dog</option>
-        <option value={2}>seniour cat/dog</option>
+      <select name="age" value={newInfo.answer} onChange={handleChangeState}>
+        <option value="baby">puppy/kitten</option>
+        <option value="young">young cat/dog</option>
+        <option value="adult">adult cat/dog</option>
+        <option value="senior">seniour cat/dog</option>
       </select>
       <label>I would like to adopt </label>
-      <select name="answer" value={newInfo.answer} onChange={handleChangeState}>
-        <option value={1}>(no gender preference)</option>
-        <option value={2}>female</option>
-        <option value={2}>male</option>
+      <select name="gender" value={newInfo.answer} onChange={handleChangeState}>
+        <option value="unknown">(no gender preference)</option>
+        <option value="female">female</option>
+        <option value="male">male</option>
       </select>
       <label>I prefer a dog that is </label>
-      <select name="answer" value={newInfo.answer} onChange={handleChangeState}>
-        <option value={1}>small (0-25lbs)</option>
-        <option value={2}>medium (26-60lbs)</option>
-        <option value={2}>large(61-100lbs)</option>
-        <option value={2}>extra large (101lbs or more)</option>
+      <select name="size" value={newInfo.answer} onChange={handleChangeState}>
+        <option value="small">small (0-25lbs)</option>
+        <option value="medium">medium (26-60lbs)</option>
+        <option value="large">large(61-100lbs)</option>
+        <option value="xLarge">extra large (101lbs or more)</option>
       </select>
       <button type="submit">Submit</button>
     </form>

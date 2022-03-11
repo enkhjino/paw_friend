@@ -13,6 +13,7 @@ import { getUser } from '../../utilities/users-service';
 // import { Link } from 'react-router-dom';
 import * as petsAPI from '../../utilities/pets-api';
 import GetStartedForm from '../../components/GetStartedForm/GetStartedForm';
+import PetMatches from '../PetMatches/PetMatches';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -48,7 +49,7 @@ export default function App() {
               <Route path="/cats/:catName" element={<CatDetailPage cats={cats} setCats={setCats} />} />
               <Route path="/dogs/:dogName" element={<DogDetailPage dogs={dogs} setDogs={setDogs} />} />
               <Route path="/favorites" element={<FavoritesPage />} />
-              <Route path="/getStarted" element={<GetStartedForm />} />
+              <Route path="/getStarted" element={<PetMatches />} />
             </Routes>
             
           </>

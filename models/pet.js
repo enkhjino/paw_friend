@@ -29,3 +29,5 @@ const petSchema = new Schema({
     postcodeAddressContact: String,
     countryAddressContact: String
 });
+
+module.exports = mongoose.model('Pet', petSchema)

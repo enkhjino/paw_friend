@@ -5,10 +5,19 @@ module.exports = {
     getAllCats,
     getAllDogs,
     getCatDetail,
-    getDogDetail
+    getDogDetail,
+    getMatches
 };
 
 const API_URL = "https://api.petfinder.com/v2/animals?type=";
+async function getMatches(req, res) {
+    const token = await getToken();
+    const matches = await fetch(`${API_URL}${req.body.type}&age=${req.body.age}&size=${req.body.size}&gender=${req.body.gender}`, {
+        headers: {Authorization: `Bearer ${token}`}
+    }).then(res => res.json());
+    // const petData = formatPetData(matches)
+    res.json(matches);
+}
 
 async function getAllCats(req, res) {
     const token = await getToken();
