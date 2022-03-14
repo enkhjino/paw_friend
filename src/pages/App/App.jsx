@@ -19,23 +19,7 @@ export default function App() {
   const [user, setUser] = useState(getUser());
   const [cats, setCats] = useState([]);
   const [dogs, setDogs] = useState([]);
-
-  useEffect(function () {
-    async function getDogs() {
-      const dogs = await petsAPI.getAllDogs()
-      setDogs(dogs);
-    }
-    getDogs();
-  }, []);
-
-  useEffect(function () {
-    async function getCats() {
-      const cats = await petsAPI.getAllCats()
-      setCats(cats);
-    }
-    getCats();
-  }, []);
-
+  
   
   return (
     <main className="App">
