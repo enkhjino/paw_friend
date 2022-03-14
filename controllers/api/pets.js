@@ -15,8 +15,8 @@ async function getMatches(req, res) {
     const matches = await fetch(`${API_URL}${req.body.type}&age=${req.body.age}&size=${req.body.size}&gender=${req.body.gender}`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
-    // const petData = formatPetData(matches)
-    res.json(matches);
+    const petData = formatPetData(matches.animals);
+    res.json(petData);
 }
 
 async function getAllCats(req, res) {

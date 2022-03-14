@@ -8,7 +8,7 @@ export default function NewInfoForm({getMatches}) {
     experience:"first-time",
     havePets:"no dog(s) or cat(s)",
     age:"baby",
-    gender:"unknown",
+    gender:"female",
     size:"small"
   });
 
@@ -25,14 +25,6 @@ export default function NewInfoForm({getMatches}) {
     getMatches(newInfo);
     const survey = await surveyAPI.addSurvey(newInfo)
     console.log(survey) 
-    // setNewInfo({
-    //     type:"cat",
-    //     experience:"first-time",
-    //     havePets:"no dog(s) or cat(s)",
-    //     age:"baby",
-    //     gender:"unknown",
-    //     size:"small"
-    // });
   }
 console.log(newInfo)
   return (
@@ -65,7 +57,6 @@ console.log(newInfo)
       </select>
       <label>I would like to adopt </label>
       <select name="gender" value={newInfo.answer} onChange={handleChangeState}>
-        <option value="unknown">(no gender preference)</option>
         <option value="female">female</option>
         <option value="male">male</option>
       </select>

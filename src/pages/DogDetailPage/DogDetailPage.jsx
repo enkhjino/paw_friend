@@ -20,7 +20,7 @@ export default function DogDetailPage({ dogs }) {
           <h3>{dog.dog ? 'with other dogs' : 'without other dogs'}</h3>
           <h3>{dog.children ? 'with other kids' : 'without kids'}</h3>
         <h1>Meet {dog.name}</h1>
-        <h3>{dog.description}</h3>
+        <p>{dog.description}</p>
         <h2>Considering {dog.name} for adoption?</h2>
         <p>Location: {dog.addressContact} {dog.cityAddressContact, dog.stateAddressContact, dog.postcodeAddressContact, dog.countryAddressContact}</p>
         <p>{dog.emailContact}</p>

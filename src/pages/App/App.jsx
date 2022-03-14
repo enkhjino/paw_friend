@@ -36,6 +36,7 @@ export default function App() {
     getCats();
   }, []);
 
+  
   return (
     <main className="App">
       { user ?
@@ -49,7 +50,7 @@ export default function App() {
               <Route path="/cats/:catName" element={<CatDetailPage cats={cats} setCats={setCats} />} />
               <Route path="/dogs/:dogName" element={<DogDetailPage dogs={dogs} setDogs={setDogs} />} />
               <Route path="/favorites" element={<FavoritesPage />} />
-              <Route path="/getStarted" element={<PetMatches />} />
+              <Route path="/getStarted" element={<PetMatches setCats={setCats} />}  />
             </Routes>
             
           </>
