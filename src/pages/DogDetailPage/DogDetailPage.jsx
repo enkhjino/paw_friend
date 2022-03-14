@@ -4,7 +4,7 @@ export default function DogDetailPage({ dogs }) {
   let { dogName } = useParams();
 
   let dog = dogs.find((d) => d.name=== dogName);
-
+  console.log(dogs, "dogs")
   return (
     <div className="flex">
       <div>

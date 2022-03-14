@@ -5,13 +5,14 @@ import * as petsAPI from '../../utilities/pets-api'
 import CatCard from '../../components/CatCard/CatCard';
 import DogCard from '../../components/DogCard/DogCard';
 
-export default function PetMatches({setCats}) {
+export default function PetMatches({setCats, setDogs}) {
     
     const [matches, setMatches] = useState([])
     async function getMatches(formData){
         const matches = await petsAPI.matches(formData)
         setMatches(matches);
         setCats(matches);
+        setDogs(matches);
     }
    
     return(

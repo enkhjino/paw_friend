@@ -4,7 +4,7 @@ import * as surveyAPI from "../../utilities/survey-api"
 
 export default function NewInfoForm({getMatches}) {
   const [newInfo, setNewInfo] = useState({
-    type:"cat",
+    species:"cat",
     experience:"first-time",
     havePets:"no dog(s) or cat(s)",
     age:"baby",
@@ -30,7 +30,7 @@ console.log(newInfo)
   return (
     <form className="NewSkillForm" onSubmit={handleAddInfo}>
       <label>I'd like to adopt a </label>
-      <select name="species" value={newInfo.answer} onChange={handleAddInfo}>
+      <select name="species" value={newInfo.answer} onChange={handleChangeState}>
         <option value="cat">cat</option>
         <option value="dog">dog</option>
       </select>

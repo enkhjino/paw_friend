@@ -50,7 +50,7 @@ export default function App() {
               <Route path="/cats/:catName" element={<CatDetailPage cats={cats} setCats={setCats} />} />
               <Route path="/dogs/:dogName" element={<DogDetailPage dogs={dogs} setDogs={setDogs} />} />
               <Route path="/favorites" element={<FavoritesPage />} />
-              <Route path="/getStarted" element={<PetMatches setCats={setCats} />}  />
+              <Route path="/getStarted" element={<PetMatches setCats={setCats} setDogs={setDogs}/>}  />
             </Routes>
             
           </>
