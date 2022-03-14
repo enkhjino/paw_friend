@@ -11,7 +11,7 @@ export default function PetMatches({setCats, setDogs}) {
     const [matches, setMatches] = useState([])
     async function getMatches(formData){
         const matches = await petsAPI.matches(formData)
-        setMatches(matches);
+        setMatches(matches.filter(m => m.photos.length));
         setCats(matches.filter(m => m.species === 'Cat'));
         setDogs(matches.filter(m => m.species === 'Dog'));
     }
