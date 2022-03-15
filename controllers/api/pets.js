@@ -13,11 +13,8 @@ module.exports = {
 };
 const API_URL = "https://api.petfinder.com/v2/animals";
 async function getFavs (req, res) {
-    console.log("string")
     const pets = await Pet.find({});
-    // console.log(pets)
     const favoriteList = pets.filter(p => p.users.includes(req.user._id));
-    console.log(favoriteList)
     res.json(favoriteList);
 }
 
@@ -65,7 +62,6 @@ async function getMatches(req, res) {
 
 async function getAllCats(req, res) {
     const token = await getToken();
-    // console.log(token);
     const results = await fetch(`${API_URL}?type=cat`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
@@ -74,7 +70,6 @@ async function getAllCats(req, res) {
 }
 async function getAllDogs(req, res) {
     const token = await getToken();
-    // console.log(token);
     const results = await fetch(`${API_URL}?type=dog`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
@@ -83,7 +78,6 @@ async function getAllDogs(req, res) {
 }
 async function getCatDetail(req, res) {
     const token = await getToken();
-    // console.log(token);
     const results = await fetch(`${API_URL}?type=cat/`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
@@ -92,7 +86,7 @@ async function getCatDetail(req, res) {
 }
 async function getDogDetail(req, res) {
     const token = await getToken();
-    // console.log(token);
+    
     const results = await fetch(`${API_URL}?type=dog/`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());

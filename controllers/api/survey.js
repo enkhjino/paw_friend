@@ -7,6 +7,5 @@ module.exports = {
 
 async function addSurvey(req, res) {
     const survey = await Survey.create(req.body)
-    console.log(survey)
     res.json(survey)
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as surveyAPI from "../../utilities/survey-api"
-// import "./GetStartedForm.css";
+import "./GetStartedForm.css";
 
 export default function NewInfoForm({getMatches}) {
   const [newInfo, setNewInfo] = useState({
