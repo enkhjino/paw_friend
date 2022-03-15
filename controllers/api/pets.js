@@ -6,13 +6,56 @@ module.exports = {
     getAllDogs,
     getCatDetail,
     getDogDetail,
-    getMatches
+    getMatches,
+    addFavs,
+    getFavs,
+    removeFavs
 };
+const API_URL = "https://api.petfinder.com/v2/animals";
+async function getFavs (req, res) {
+    console.log("string")
+    const pets = await Pet.find({});
+    // console.log(pets)
+    const favoriteList = pets.filter(p => p.users.includes(req.user._id));
+    console.log(favoriteList)
+    res.json(favoriteList);
+}
 
-const API_URL = "https://api.petfinder.com/v2/animals?type=";
+async function addFavs (req, res) {
+    const token = await getToken();
+    const favorite = await fetch(`${API_URL}/${req.body.apiId}`, {
+        headers: {Authorization: `Bearer ${token}`}
+    }).then(res => res.json());
+    let pet = await Pet.find({apiId: req.body.apiId})
+    if (pet.length) {
+        pet.users.push(req.user)
+        pet.save();
+        res.json(pet);
+    }else if (req.body.apiId === favorite.animal.id) {
+        pet = await Pet.create(req.body)
+        pet.users.push(req.user);
+        pet.save();
+    }else{
+        throw new Error("Bad Call");
+    }   
+}
+
+async function removeFavs (req, res) {
+    
+    const pet = await Pet.find({_id: req.body._id})
+    
+    const idx = pet[0].users.indexOf(req.user._id)
+    pet[0].users.splice(idx, 1)
+    await pet[0].save();
+    const pets = await Pet.find()
+    const favoriteList = pets.filter(p => p.users.includes(req.user._id))
+    res.status(201).json(favoriteList)
+}
+
+
 async function getMatches(req, res) {
     const token = await getToken();
-    const matches = await fetch(`${API_URL}${req.body.species}&age=${req.body.age}&size=${req.body.size}&gender=${req.body.gender}`, {
+    const matches = await fetch(`${API_URL}?type=${req.body.species}&age=${req.body.age}&size=${req.body.size}&gender=${req.body.gender}`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const petData = formatPetData(matches.animals);
@@ -23,7 +66,7 @@ async function getMatches(req, res) {
 async function getAllCats(req, res) {
     const token = await getToken();
     // console.log(token);
-    const results = await fetch(`${API_URL}cat`, {
+    const results = await fetch(`${API_URL}?type=cat`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const catData = formatPetData(results.animals)
@@ -32,7 +75,7 @@ async function getAllCats(req, res) {
 async function getAllDogs(req, res) {
     const token = await getToken();
     // console.log(token);
-    const results = await fetch(`${API_URL}dog`, {
+    const results = await fetch(`${API_URL}?type=dog`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const dogData = formatPetData(results.animals)
@@ -41,7 +84,7 @@ async function getAllDogs(req, res) {
 async function getCatDetail(req, res) {
     const token = await getToken();
     // console.log(token);
-    const results = await fetch(`${API_URL}cat/`, {
+    const results = await fetch(`${API_URL}?type=cat/`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const catData = formatPetData(results.animals)
@@ -50,7 +93,7 @@ async function getCatDetail(req, res) {
 async function getDogDetail(req, res) {
     const token = await getToken();
     // console.log(token);
-    const results = await fetch(`${API_URL}dog/`, {
+    const results = await fetch(`${API_URL}?type=dog/`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const dogData = formatPetData(results.animals)

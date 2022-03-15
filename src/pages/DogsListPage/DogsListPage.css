@@ -5,10 +5,11 @@
   }
   
   .item-card {
-    margin: 2vw;
+    /* margin: 2vw; */
     border-radius: 5px;
     height: 40vh;
     width: 15vw;
+    position: relative;
   }
   
   .item-card:hover {
@@ -16,6 +17,10 @@
   }
   
   .title {
+    padding: .5vw;
     background-color: white;
     border-radius: 4px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
   }

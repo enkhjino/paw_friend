@@ -27,7 +27,11 @@ const petSchema = new Schema({
     cityAddressContact: String,
     stateAddressContact: String,
     postcodeAddressContact: String,
-    countryAddressContact: String
+    countryAddressContact: String,
+    users: [{
+        type: Schema.Types.ObjectId, 
+        ref: 'User'
+    }]
 });
 
 module.exports = mongoose.model('Pet', petSchema)

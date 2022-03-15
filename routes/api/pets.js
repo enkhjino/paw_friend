@@ -10,4 +10,7 @@ router.get('/dogs', petsCtrl.getAllDogs);
 router.get('/cats/:catName', petsCtrl.getCatDetail);
 router.get('/dogs/:dogName', petsCtrl.getDogDetail);
 router.post('/matches', petsCtrl.getMatches);
+router.post('/favorites', petsCtrl.addFavs);
+router.post('/unfavorite', petsCtrl.removeFavs);
+router.get('/favorites', petsCtrl.getFavs);
 module.exports = router;

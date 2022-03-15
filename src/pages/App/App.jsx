@@ -19,6 +19,21 @@ export default function App() {
   const [user, setUser] = useState(getUser());
   const [cats, setCats] = useState([]);
   const [dogs, setDogs] = useState([]);
+  const [favorites, setFavorites] = useState([]);
+
+async function addFavorites (pet) {
+  const favorites = await petsAPI.addFavs(pet)
+  //console.log(favorites)
+}
+
+async function removeFavorites(pet){
+  const unfavorite = await petsAPI.removeFavs(pet);
+}
+
+async function getPets() {
+  const favePets = await petsAPI.addFavs()
+}
+
   
   
   return (
@@ -31,10 +46,11 @@ export default function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/dogs" element={<DogsListPage dogs={dogs} setDogs={setDogs} />} />
               <Route path="/cats" element={<CatsListPage cats={cats} setCats={setCats} />} />
-              <Route path="/cats/:catName" element={<CatDetailPage cats={cats} setCats={setCats} />} />
-              <Route path="/dogs/:dogName" element={<DogDetailPage dogs={dogs} setDogs={setDogs} />} />
-              <Route path="/favorites" element={<FavoritesPage />} />
+              <Route path="/cats/:catName" element={<CatDetailPage cats={cats} setCats={setCats} addFavorites={addFavorites} favorites={favorites} removeFavorites={removeFavorites} />} />
+              <Route path="/dogs/:dogName" element={<DogDetailPage dogs={dogs} setDogs={setDogs} addFavorites={addFavorites} favorites={favorites} removeFavorites={removeFavorites}/>} />
+              <Route path="/favorites" element={<FavoritesPage setCats={setCats} setDogs={setDogs} setFavorites={setFavorites} />} />
               <Route path="/getStarted" element={<PetMatches setCats={setCats} setDogs={setDogs}/>}  />
+              <Route path="/login" element={<AuthPage />}  />
             </Routes>
             
           </>

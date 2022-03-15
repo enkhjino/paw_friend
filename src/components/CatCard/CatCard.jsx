@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function CatCard(props) {
+  console.log(props);
   return (
     <>
       <Link to={`/cats/${props.cat.name}`} className="cat-link">
@@ -11,9 +12,12 @@ export default function CatCard(props) {
           }}
           className="item-card"
         >
+          
           <div className="title">
             <h1>{props.cat.name}</h1>
           </div>
+
+          
         </div>
       </Link>
     </>

@@ -1,10 +1,12 @@
 import { useParams } from "react-router-dom";
+import "./CatDetailPage.css";
 
-export default function CatDetailPage({ cats }) {
+export default function CatDetailPage({ cats, addFavorites, favorites, removeFavorites }) {
   let { catName } = useParams();
 
   let cat = cats.find((c) => c.name=== catName);
-  console.log(cats, "cats");
+  let fave = favorites.filter(f => f._id === cat._id);
+  console.log(fave);
   return (
     <div className="flex">
       <div>
@@ -28,11 +30,19 @@ export default function CatDetailPage({ cats }) {
         <p>{cat.phoneContact}</p>
         <h3>{cat.adoptable}</h3>
         <h4>Posted Since: {new Date(cat.publishedAt).toLocaleDateString()}</h4>
+        
+        {
+          fave.length ? 
+          <div className="heart">
+            <button className="heart-image-faved" onClick={()=> removeFavorites(cat)} src=" " width="70vmin" height="70vmin"></button>
+          </div> 
+          : 
+          <div className="heart">
+            <button className="heart-image" onClick={()=> addFavorites(cat)} src="https://i.imgur.com/DzXO8gW.png" width="70vmin" height="70vmin"/>
+          </div>
+        }
     </div>
     </div>
   );
 }
-
-
-
 

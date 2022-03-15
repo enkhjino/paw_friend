@@ -1,6 +1,17 @@
 import { getToken } from './users-service';
 const BASE_URL = '/api/pets';
 
+export function getFaves() {
+  return sendRequest(`${BASE_URL}/favorites`);
+}
+
+export function addFavs(pet) {
+  return sendRequest(`${BASE_URL}/favorites`, "POST", pet);
+}
+export function removeFavs(pet) {
+  return sendRequest(`${BASE_URL}/unfavorite`, "POST", pet);
+}
+
 export function getAllCats() {
     return sendRequest(`${BASE_URL}/cats`);
   }

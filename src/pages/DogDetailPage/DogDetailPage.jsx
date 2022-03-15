@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
 
-export default function DogDetailPage({ dogs }) {
+export default function DogDetailPage({ dogs, favorites, addFavorites, removeFavorites }) {
   let { dogName } = useParams();
 
   let dog = dogs.find((d) => d.name=== dogName);
-  console.log(dogs, "dogs")
+  let fave = favorites.filter(f => f._id === dog._id);
   return (
     <div className="flex">
       <div>
@@ -27,6 +27,16 @@ export default function DogDetailPage({ dogs }) {
         <p>{dog.phoneContact}</p>
         <h3>{dog.adoptable}</h3>
         <h4>Posted Since: {new Date(dog.publishedAt).toLocaleDateString()}</h4>
+        {
+          fave.length ? 
+          <div className="heart">
+            <button className="heart-image-faved" onClick={()=> removeFavorites(dog)} src=" " width="70vmin" height="70vmin"></button>
+          </div> 
+          : 
+          <div className="heart">
+            <button className="heart-image" onClick={()=> addFavorites(dog)} src="https://i.imgur.com/DzXO8gW.png" width="70vmin" height="70vmin"/>
+          </div>
+        }
     </div>
     </div>
   );

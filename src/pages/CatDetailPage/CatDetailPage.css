@@ -1,0 +1,17 @@
+.heart {
+    display: flex;
+    justify-content: end;
+    padding: 15px 15px;
+    margin: 10px;
+  }
+  
+  .heart-image {
+    display: flex;
+    background: hsla(0,0%,100%,.75);
+    border-radius: 50%;
+  }
+  .heart-image-faved {
+    display: flex;
+    background: red;
+    border-radius: 50%;
+  }
