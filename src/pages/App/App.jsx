@@ -20,7 +20,7 @@ export default function App() {
   const [cats, setCats] = useState([]);
   const [dogs, setDogs] = useState([]);
   const [favorites, setFavorites] = useState([]);
-
+  console.log(user);
 async function addFavorites (pet) {
   const favorites = await petsAPI.addFavs(pet)
   //console.log(favorites)
@@ -50,12 +50,23 @@ async function getPets() {
               <Route path="/dogs/:dogName" element={<DogDetailPage dogs={dogs} setDogs={setDogs} addFavorites={addFavorites} favorites={favorites} removeFavorites={removeFavorites}/>} />
               <Route path="/favorites" element={<FavoritesPage setCats={setCats} setDogs={setDogs} setFavorites={setFavorites} />} />
               <Route path="/getStarted" element={<PetMatches setCats={setCats} setDogs={setDogs}/>}  />
-              <Route path="/login" element={<AuthPage />}  />
+              <Route path="/login" element={<HomePage />}  />
             </Routes>
             
           </>
-          :
-          <AuthPage setUser={setUser} />
+          :<>
+            <NavBar className="Nav" user={user} setUser={setUser} />
+            <Routes>
+              {/* Route components in here */}
+              <Route path="/" element={<HomePage />} />
+              <Route path="/dogs" element={<DogsListPage dogs={dogs} setDogs={setDogs} />} />
+              <Route path="/cats" element={<CatsListPage cats={cats} setCats={setCats} />} />
+              <Route path="/cats/:catName" element={<CatDetailPage user={user} cats={cats} setCats={setCats} addFavorites={addFavorites} favorites={favorites} removeFavorites={removeFavorites} />} />
+              <Route path="/dogs/:dogName" element={<DogDetailPage user={user} dogs={dogs} setDogs={setDogs} addFavorites={addFavorites} favorites={favorites} removeFavorites={removeFavorites}/>} />
+              <Route path="/getStarted" element={<AuthPage setUser={setUser} />}  />
+              <Route path="/login" element={<AuthPage setUser={setUser} />}  />
+            </Routes>
+          </>
       }
     </main>
   );

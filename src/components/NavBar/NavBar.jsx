@@ -7,19 +7,27 @@ export default function NavBar({ user, setUser }) {
     userService.logOut();
     setUser(null);
   }
-
+  
   return (
     <nav>  
-      
-        <Link className="logo" to="/">HOME</Link>
-     
-      
-        <Link to="/favorites"><img src="https://i.imgur.com/LtmgnrK.png" width="60px" height="60px" /></Link>
-        &nbsp; | &nbsp;
-        <span><img src="https://i.imgur.com/xOmanNB.png" width="60px" height="60px" /></span><span>{user.name}</span>
-        &nbsp; | &nbsp;
-        <Link onClick={handleLogOut} to="">LOG OUT</Link>
-      
+        { user !== null ?
+          <>
+            <Link className="logo" to="/">HOME</Link>
+        
+          
+            <Link to="/favorites"><img src="https://i.imgur.com/LtmgnrK.png" width="60px" height="60px" /></Link>
+            &nbsp; | &nbsp;
+            <span><img src="https://i.imgur.com/xOmanNB.png" width="60px" height="60px" /></span><span>{user.name}</span>
+            &nbsp; | &nbsp;
+            <Link onClick={handleLogOut} to="">LOG OUT</Link>
+          </>
+          :
+          <>
+            <Link className="logo" to="/">HOME</Link>
+            &nbsp; | &nbsp;
+            <Link to="/login">LOG IN</Link>
+          </>
+        }
     </nav>
   );
 }
