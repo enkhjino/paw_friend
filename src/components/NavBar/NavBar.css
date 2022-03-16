@@ -1,7 +1,7 @@
 nav {
-    background-color: #ffd166;
+    background-color: white;
     padding: 10px;
-    color: white;
+    color: darkgrey;
     padding: 20px 0 20px 0;
     font-weight: 500;
     font-size: 20px;
@@ -9,10 +9,27 @@ nav {
     justify-content: center;
     align-items: center;
     height:8vh;
+    width:100%
 }
 a { color: inherit;
 text-decoration: none; } 
 
 .logo{
     order:0;
+}
+
+.navBar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding-left: 5vmin;
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5vmin;
 }

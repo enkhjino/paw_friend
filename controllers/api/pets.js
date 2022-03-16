@@ -52,7 +52,7 @@ async function removeFavs (req, res) {
 
 async function getMatches(req, res) {
     const token = await getToken();
-    const matches = await fetch(`${API_URL}?type=${req.body.species}&age=${req.body.age}&size=${req.body.size}&gender=${req.body.gender}`, {
+    const matches = await fetch(`${API_URL}?type=${req.body.species}&age=${req.body.age}&size=${req.body.size}&gender=${req.body.gender}&limit=100`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const petData = formatPetData(matches.animals);
@@ -62,7 +62,7 @@ async function getMatches(req, res) {
 
 async function getAllCats(req, res) {
     const token = await getToken();
-    const results = await fetch(`${API_URL}?type=cat`, {
+    const results = await fetch(`${API_URL}?type=cat&limit=100`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const catData = formatPetData(results.animals)
@@ -70,7 +70,7 @@ async function getAllCats(req, res) {
 }
 async function getAllDogs(req, res) {
     const token = await getToken();
-    const results = await fetch(`${API_URL}?type=dog`, {
+    const results = await fetch(`${API_URL}?type=dog&limit=100`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
     const dogData = formatPetData(results.animals)
@@ -78,10 +78,11 @@ async function getAllDogs(req, res) {
 }
 async function getCatDetail(req, res) {
     const token = await getToken();
-    const results = await fetch(`${API_URL}?type=cat/`, {
+    const results = await fetch(`${API_URL}/${req.params.apiId}`, {
         headers: {Authorization: `Bearer ${token}`}
     }).then(res => res.json());
-    const catData = formatPetData(results.animals)
+    console.log(results)
+    const catData = formatPetData([results.animal])[0]
     res.json(catData);
 }
 async function getDogDetail(req, res) {

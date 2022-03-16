@@ -6,7 +6,8 @@ export default function CatDetailPage({ user, cats, addFavorites, favorites, rem
 
   let cat = cats.find((c) => c.name=== catName);
   let fave = favorites.filter(f => f._id === cat._id);
-  console.log(fave);
+  
+
   return (
     <div className="flex">
       <div>

@@ -1,7 +1,9 @@
 .NewSkillForm {
-    background: #fdffcd;
+    display:flex;
+    flex-direction: column;
+    background: #A7866B;
     margin: 25px;
     padding: 30px;
-    border: 5px ridge #ffd166;
+    border: 5px ridge #bea793;
     border-radius: 5%;
 }

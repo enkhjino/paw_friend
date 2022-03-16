@@ -19,8 +19,8 @@ export function getAllDogs() {
   return sendRequest(`${BASE_URL}/dogs`);
 }
 
-export function getCatDetail() {
-    return sendRequest(`${BASE_URL}/cats/:id`);
+export function getCatDetail(apiId) {
+    return sendRequest(`${BASE_URL}/cats/${apiId}`);
   }
 export function matches(formData) {
     return sendRequest(`${BASE_URL}/matches`, "POST", formData);
