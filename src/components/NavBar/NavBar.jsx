@@ -25,8 +25,8 @@ export default function NavBar({ user, setUser }) {
           :
           <div className="navBar">
             <Link className="logo" to="/">HOME</Link>
-            &nbsp; | &nbsp;
-            <Link to="/login">LOG IN</Link>
+            
+            <Link className="navRight" to="/login">LOG IN</Link>
           </div>
         }
     </nav>

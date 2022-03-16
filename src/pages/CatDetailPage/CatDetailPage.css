@@ -1,17 +1,38 @@
-.heart {
-    display: flex;
-    justify-content: end;
-    padding: 15px 15px;
-    margin: 10px;
+    .heart-image {
+    margin:0;
+    background-color: white;
+    border:none;
+    
   }
-  
-  .heart-image {
-    display: flex;
-    background: hsla(0,0%,100%,.75);
-    border-radius: 50%;
+  .heart-image-faved{
+    margin:0;
+    background-color: white;
+    border:none;
   }
-  .heart-image-faved {
-    display: flex;
-    background: red;
+  .heart-image-faved > img{
+   
+    filter: invert(25%) sepia(49%) saturate(5579%) hue-rotate(349deg) brightness(93%) contrast(139%);
+  }
+
+  .petDetail {
+    width:500px;
+    height:500px;
     border-radius: 50%;
+    margin: 3vmin;
+    object-fit: cover;
+  }
+  .details-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    margin: 15px;
+    padding-top: 35px;
+    border-radius: 1%;
+  }
+  .about {
+    background-color: #266150;
+    margin: 0 25px 25px 25px;
+    padding: 30px;
+    color:white;
+    border-radius: 1%;
   }

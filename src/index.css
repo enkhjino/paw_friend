@@ -5,8 +5,8 @@
   --tan-2: #E7E2DD;
   --tan-3: #d4c7b0;
   --tan-4: #D3C1AE;
-  --orange: #71B6B0;
-  --text-light: white;
+  --orange: #266150;
+  --text-light: black;
   --text-dark: #666159;
 }
 
@@ -77,12 +77,20 @@ code {
   text-align: center;
   font-size: 2vmin;
 }
-
+.form-outer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 30vmin;
+  flex-direction: column;
+}
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
+  background-color: white;
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
+  width:60%;
 }
 
 p.error-message {

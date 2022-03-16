@@ -1,9 +1,39 @@
 .NewSkillForm {
+    grid-row-start: 1;
+    grid-row-end: 3;
     display:flex;
     flex-direction: column;
-    background: #A7866B;
-    margin: 25px;
-    padding: 30px;
-    border: 5px ridge #bea793;
-    border-radius: 5%;
+    background: #F9F9F9;
+    margin: 30px;
+    padding: 20px;
+    /* border: 5px ridge #DDAF94; */
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.NewSkillForm > label {
+    font-size: 13px;
+    font-weight: 400;
+}
+.NewSkillForm > h1 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+.NewSkillForm > select {
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    width: 100%;
+}
+.NewSkillForm > select:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+.form-button {
+    transform: scale(1.1);
+    box-shadow: 2px 2px;
 }

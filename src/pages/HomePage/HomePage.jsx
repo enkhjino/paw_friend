@@ -3,16 +3,20 @@ import "./HomePage.css";
 
 export default function() {
     return(
-        <main>
-            <div className='landing-header'>
-              <h1>Finding the perfect furry animal is hard, but we can help you</h1>
-              <h2>Fill out this form to see your perfect match</h2>
-              <button className="getStarted"><Link to ="/getStarted">Get Started</Link></button>
+        <main className="landing-header">
+          <div className="home-container">
+            <div className='landing-left'>
+              <h1>Finding the pawfect furry animal is hard, but we can help you</h1>
+              <h2>Fill out this form to see your pawfect match</h2>
+              <Link to ="/getStarted"><button className="getStarted">Get Started</button></Link>
             </div>
-            <div className="landing-buttons">
-              <button className="pet-button"><Link to="/dogs">Find a dog</Link></button>
-              <button className="pet-button"><Link to ="/cats">Find a cat</Link></button>
+            <div className="landing-right">
+              <div className="landing-buttons">
+              <Link to ="/cats"><button className="pet-button">Find a cat</button></Link>
+              <Link to="/dogs"><button className="pet-button">Find a dog</button></Link>
+              </div>
             </div>
+          </div>
         </main>
     )
 }

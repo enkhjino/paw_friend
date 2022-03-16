@@ -20,10 +20,10 @@ export default function App() {
   const [cats, setCats] = useState([]);
   const [dogs, setDogs] = useState([]);
   const [favorites, setFavorites] = useState([]);
-  console.log(user);
+
 async function addFavorites (pet) {
   const favorites = await petsAPI.addFavs(pet)
-  //console.log(favorites)
+ 
 }
 
 async function removeFavorites(pet){

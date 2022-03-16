@@ -24,11 +24,10 @@ export default function NewInfoForm({getMatches}) {
     evt.preventDefault();
     getMatches(newInfo);
     const survey = await surveyAPI.addSurvey(newInfo)
-    console.log(survey) 
   }
-console.log(newInfo)
   return (
     <form className="NewSkillForm" onSubmit={handleAddInfo}>
+      <h1>Find the pawfect friend!</h1>
       <label>I'd like to adopt a </label>
       <select name="species" value={newInfo.answer} onChange={handleChangeState}>
         <option value="cat">cat</option>
@@ -53,21 +52,21 @@ console.log(newInfo)
         <option value="baby">puppy/kitten</option>
         <option value="young">young cat/dog</option>
         <option value="adult">adult cat/dog</option>
-        <option value="senior">seniour cat/dog</option>
+        <option value="senior">senior cat/dog</option>
       </select>
       <label>I would like to adopt </label>
       <select name="gender" value={newInfo.answer} onChange={handleChangeState}>
         <option value="female">female</option>
         <option value="male">male</option>
       </select>
-      <label>I prefer a dog that is </label>
+      <label>I prefer a dog/cat that is </label>
       <select name="size" value={newInfo.answer} onChange={handleChangeState}>
         <option value="small">small (0-25lbs)</option>
         <option value="medium">medium (26-60lbs)</option>
         <option value="large">large(61-100lbs)</option>
         <option value="xLarge">extra large (101lbs or more)</option>
       </select>
-      <button type="submit">Submit</button>
+      <button className="form-button" type="submit">Submit</button>
     </form>
   );
 }
